@@ -83,18 +83,18 @@
                     client.println("Connection: close");
                     client.println();
 
-                    // Display the HTML web page
-                    client.println("<!DOCTYPE html><html>");
-                    client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
-                    client.println("<link rel=\"icon\" href=\"data:,\">");
-                    // CSS to style the table 
-                    client.println("<style>body { text-align: center; font-family: \"Trebuchet MS\", Arial;}");
-                    client.println("table { border-collapse: collapse; width:35%; margin-left:auto; margin-right:auto; }");
-                    client.println("th { padding: 12px; background-color: #0043af; color: white; }");
-                    client.println("tr { border: 1px solid #ddd; padding: 12px; }");
-                    client.println("tr:hover { background-color: #bcbcbc; }");
-                    client.println("td { border: none; padding: 12px; }");
-                    client.println(".sensor { color:white; font-weight: bold; background-color: #bcbcbc; padding: 1px; }");
+                         // Display the HTML web page
+                        client.println("<!DOCTYPE html><html>");
+                        client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+                        client.println("<link rel=\"icon\" href=\"data:,\">");
+                        // CSS to style the table 
+                        client.println("<style>body { text-align: center; font-family: \"Trebuchet MS\", Arial;}");
+                        client.println("table { border-collapse: collapse; width:35%; margin-left:auto; margin-right:auto; }");
+                        client.println("th { padding: 12px; background-color: #000000; color: white; }");
+                        client.println("tr { border: 1px solid #ddd; padding: 12px; }");
+                        client.println("tr:hover { background-color: #bcbcbc; }");
+                        client.println("td { border: none; padding: 12px; }");
+                        client.println(".sensor { color: #000000; font-weight: bold; background-color: #FFFFFF; padding: 1px; }");
 
                     // Web Page Heading
                     client.println("</style></head><body><h1>RobatzNetwork</h1>");
